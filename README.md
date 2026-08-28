@@ -8,14 +8,11 @@ Design, small-signal modeling, and dual-loop control implementation of a DC-DC B
 
 ## 📌 Project Overview
 
-This project focuses on the modeling and feedback control of a  Buck Converter. It implements a dual-loop **Average Current Mode Control (ACMC)** architecture:
-- **Inner Current Loop:** Uses a **Type-II compensator** to average and track the inductor current with high bandwidth, providing inherent overcurrent protection and high noise immunity.
+This project focuses on the modeling and feedback control of a  Buck Converter. It implements a dual-loop Average Current Mode Control (ACMC)architecture:
+- Inner Current Loop: Uses a **Type-II compensator** to average and track the inductor current with high bandwidth, providing inherent overcurrent protection and high noise immunity.
 - **Outer Voltage Loop:** Uses a **Type-II compensator** to regulate the output voltage against line and load transients.
 
-**Clone the repository:**
-   ```bash
-   git clone [https://github.com/saurav80998/ACMC-OF-BUCK-CONVERTER-.git](https://github.com/saurav80998/ACMC-OF-BUCK-CONVERTER-.git)
-   cd ACMC-OF-BUCK-CONVERTER-
+
 
 
 
